@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+#btn-again{
+    display:none;
+}
+#quote{
+    font-weight: bolder;
+    font-size: large;
+    color: orangered;
+}
+#btn-click, p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#word{
+    width: 30%;
+    height: auto;
+}
+

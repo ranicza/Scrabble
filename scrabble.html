@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset = "utf-8">
+    <title>Scrabble</title>
+</head>
+<body>
+<div class="container">
+    <h1>Play in Scrabble</h1>
+    <div id="for-user">
+        <form id="scrabble-form">
+
+            <div class="col-md-12 col-xs-6">
+                <p>Write a word in the field and get some scores for it</p>
+                <div class="form-group">
+                    <label for="word"><span class="word"></span></label>
+                    <input id="word" type="text" placeholder="Write a word">
+                </div>
+
+
+                <div>
+                    <button id="btn-click" type="submit" class="btn btn-primary btn-lg">Ok</button>
+                </div>
+                <div id="for-result">
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+    <div id="result">
+        <p><span id = "quote"></span></p>
+    </div>
+    <div>
+        <button id="btn-again" type="submit" class="btn btn-primary btn-lg">Again?</button>
+    </div>
+</div>
+</body>
+</html>
